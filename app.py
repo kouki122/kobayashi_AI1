@@ -112,7 +112,8 @@ def upload():
     finally:
         os.remove(file_path)
 
-    return jsonify(results)
+    return  jsonify(results)
+
 
 if __name__ == '__main__':
     os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)

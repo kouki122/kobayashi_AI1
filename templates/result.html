@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel=stylesheet href="{{ url_for('static', filename='css/style.css') }}">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="surface-pro-8-2">
+      <img class="m-1-icon" alt="" src="\static\image\29488995_m.jpg" />
+
+      <div class="div2">{{pitch_result}}</div>
+      <div class="div3">トップセールスより</div>
+      <div class="div4">声の高さ：</div>
+      <div class="div5">話す速度：</div>
+      <div class="div6">{{tempo_result}}</div>
+    </div>
+  </body>
+</html>

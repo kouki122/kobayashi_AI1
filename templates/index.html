@@ -1,17 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>音声ファイルの評価</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel=stylesheet href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <h1>音声ファイルの評価</h1>
-    <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
-        <input type="file" name="file">
-        <button type="submit">アップロードして評価</button>
+  
+  <div  class="image-2-icon" alt="" src="\static\image\audio.png" />
+    <!-- <div class="surface-pro-8-1">-->
+    <div class="p">
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br><br><br><br><br>
+      <h1>  営業音声評価 </h1>
+      <h2>  audio evaluation </h2>
+
+    </div>
+      <!--</p>-->
+    
+     <!--<img class="image-2-icon" alt="" src="\static\image\audio.png" />-->
+
+   <!-- <div class="audio-evaluation">
+      <p class="p">営業音声評価</p>
+      <p class="audio-evaluation1">
+        <span class="span"> </span>
+        <span class="audio-evaluation2"> audio evaluation</span>
+      </p>
+    </div>-->
+   
+       <!-- クリック可能なリンク -->
+       
+    <!-- フォーム -->
+    <form id="uploadForm" action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+        <!-- フォームの内容 -->
+        <input class="bt_03" type="file" name="file">
+        <button class="btn_04" type="submit">アップロードして評価</button>
+        
     </form>
+  </div>
+
+  <script>
+    var text = document.getElementById("text");
+    if (text) {
+      text.addEventListener("click", function (e) {
+        window.location.href = "\templates\result.html";
+      });
+    }
+  </script>
 </body>
 </html>
-
-

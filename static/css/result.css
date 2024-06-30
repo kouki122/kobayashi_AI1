@@ -1,0 +1,52 @@
+.m-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 960px;
+    object-fit: cover;
+  }
+  .div2,
+  .div3 {
+    position: absolute;
+    top: 410px;
+    left: 652px;
+    display: inline-block;
+    width: 92px;
+    height: 49px;
+  }
+  .div3 {
+    top: 260px;
+    left: 323px;
+    width: 397px;
+    height: 67px;
+  }
+  .div4,
+  .div5,
+  .div6 {
+    position: absolute;
+    top: 411px;
+    left: 459px;
+  }
+  .div5,
+  .div6 {
+    top: 544px;
+  }
+  .div6 {
+    left: 652px;
+    display: inline-block;
+    width: 112px;
+    height: 56px;
+  }
+  .surface-pro-8-2 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    height: 960px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  

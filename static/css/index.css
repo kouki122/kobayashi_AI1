@@ -1,0 +1,61 @@
+
+  .image-2-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* 画像をページ幅に合わせる */
+    height: auto; /* アスペクト比を保つため */
+    object-fit: cover; /* 必要に応じて */
+  }
+  .p {
+    margin: 0;
+  }
+  .span {
+    font-size: 15px;
+  }
+  .audio-evaluation2 {
+    white-space: pre-wrap;
+  }
+  .audio-evaluation1 {
+    margin: 0;
+    font-size: 64px; /* 変数に依存しない具体的な値を使用 */
+  }
+  .audio-evaluation {
+    top: 426px;
+    left: 524px;
+    color: #f5f5f5;
+    width: 393px;
+    height: 109px;
+    mix-blend-mode: lighten;
+    font-size: 64px; /* 変数に依存しない具体的な値を使用 */
+  }
+  .audio-evaluation,
+  .div,
+  .div1 {
+    position: absolute;
+    display: inline-block;
+  }
+  .div {
+    top: 639px;
+    left: 917px;
+    width: 363px;
+    height: 146px;
+    cursor: pointer;
+  }
+  .button {
+    top: 640px;
+    left: 340px;
+    width: 368px;
+    height: 64px;
+  }
+  .surface-pro-8-1 {
+    width: 100%;
+    position: relative;
+    background-color: #fff; /* --color-white の代わり */
+    height: 960px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px; /* --font-size-17xl の代わり */
+    color: #fff; /* --color-white の代わり */
+    font-family: 'ABeeZee', sans-serif; /* --font-abeezee の代わり */
+  }
